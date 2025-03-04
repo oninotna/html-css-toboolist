@@ -81,8 +81,9 @@ main .list-container .menu div {
     margin-bottom: 20px;
 }
 
-main .list-container .menu .new-task h2 {
+main .list-container .menu h2 {
     font-size: 32px;
+    margin-bottom: 20px;
 }
 
 main .list-container .menu .check {
