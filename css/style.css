@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(170, 170, 170);
+}
+
+/* inserimento stile header */
+.head-page {
+    background-color: #001433;
+}
+
+header .head-page img {
+    width: 150px;
+    background-color: #001433;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .head-page h1 {
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+/* fine inserimento stile header */
+
