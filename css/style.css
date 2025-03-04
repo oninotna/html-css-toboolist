@@ -9,8 +9,9 @@ body {
 }
 
 /* inserimento stile header */
-.head-page {
+header .head-page {
     background-color: #001433;
+    margin-bottom: 50px;
 }
 
 header .head-page img {
@@ -28,4 +29,37 @@ header .head-page h1 {
     vertical-align: middle;
 }
 /* fine inserimento stile header */
+
+/* inserimento stile struttura principale pagina */
+main .list-container {
+    width: 60%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-left: 50px;
+    background-color: #001433;
+    border-radius: 15px 5px 5px 15px;
+}
+
+/* inserimento stile button */
+main .list-container .button-line button {
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 15px;
+    margin-right: 8px;
+    font-size: 20px;
+} 
+
+main .list-container .button-line #add-task {
+    background-color: rgb(0, 170, 255);
+    color: white;
+    font-weight: 600;
+    border: rgb(0, 170, 255) solid 4px;
+}
+
+main .list-container .button-line #add-section {
+    border: grey solid 4px;
+    color: grey;
+    background-color: transparent;
+}
+/* fine inserimento stile button */
 
